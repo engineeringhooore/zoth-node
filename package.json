@@ -1,0 +1,28 @@
+{
+  "name": "zoth-node",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./signature": "./dist/signature.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engineeringhooore/zoth-node.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/engineeringhooore/zoth-node/issues"
+  },
+  "homepage": "https://github.com/engineeringhooore/zoth-node#readme",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "jose": "^5.8.0"
+  }
+}
